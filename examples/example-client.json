@@ -1,0 +1,63 @@
+{
+  "$schema": "../schema/client-profile-schema.json",
+  "client": {
+    "name": "Example Corporation",
+    "contact": "admin@example.com",
+    "deployment_date": "2025-11-07",
+    "notes": "Example client profile - DO NOT use in production. Replace with real values."
+  },
+  "mcps": [
+    {
+      "name": "asana-mcp-railway",
+      "enabled": true,
+      "config": {
+        "endpoint": "https://asana-mcp-railway-production.up.railway.app",
+        "session": "EXAMPLE_SESSION_TOKEN_REPLACE_WITH_REAL"
+      }
+    },
+    {
+      "name": "sharepoint-mcp-railway",
+      "enabled": true,
+      "config": {
+        "endpoint": "https://sharepoint-mcp-railway-production.up.railway.app",
+        "customer_sites": ["Example Corp SharePoint"]
+      }
+    },
+    {
+      "name": "hubspot-mcp-railway",
+      "enabled": false,
+      "config": {
+        "endpoint": "https://hubspot-mcp-railway-production-6079.up.railway.app/mcp",
+        "access_token": "EXAMPLE_TOKEN_REPLACE_WITH_REAL"
+      }
+    },
+    {
+      "name": "neo4j-cypher-mcp",
+      "enabled": false,
+      "config": {
+        "endpoint": "https://scintillating-wholeness-production.up.railway.app/api/mcp/",
+        "credentials": {
+          "uri": "neo4j+s://xxxxx.databases.neo4j.io",
+          "username": "neo4j",
+          "password": "EXAMPLE_PASSWORD_REPLACE_WITH_REAL"
+        }
+      }
+    },
+    {
+      "name": "neo4j-memory-mcp",
+      "enabled": false,
+      "config": {
+        "endpoint": "https://steadfast-tenderness-production-4404.up.railway.app/api/mcp/",
+        "credentials": {
+          "uri": "neo4j+s://xxxxx.databases.neo4j.io",
+          "username": "neo4j",
+          "password": "EXAMPLE_PASSWORD_REPLACE_WITH_REAL"
+        }
+      }
+    }
+  ],
+  "bridge": {
+    "enabled": true,
+    "debug": false
+  }
+}
