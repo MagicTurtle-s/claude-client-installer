@@ -1,0 +1,28 @@
+{
+  "name": "claude-client-installer",
+  "version": "0.1.0",
+  "description": "Script-based installer system for generating customized Claude Desktop/Code packages with MCP servers for different clients",
+  "main": "scripts/generate-installer.js",
+  "scripts": {
+    "generate": "node scripts/generate-installer.js",
+    "validate": "node scripts/validate-profile.js"
+  },
+  "keywords": [
+    "claude",
+    "installer",
+    "mcp",
+    "automation",
+    "client-deployment"
+  ],
+  "author": "MagicTurtle-s",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MagicTurtle-s/claude-client-installer.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
