@@ -1,5 +1,9 @@
 # Claude Client Installer
 
+> **⚠️ DEPRECATED**: This repository is deprecated. Please use [claude-client-deploy-template](https://github.com/MagicTurtle-s/claude-client-deploy-template) for new deployments.
+>
+> See [DEPRECATION.md](DEPRECATION.md) for migration instructions.
+
 **Generate customized Claude Desktop/Code installation packages for different clients with pre-configured MCP servers.**
 
 ## Overview
